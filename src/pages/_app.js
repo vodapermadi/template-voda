@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:3000/api'
+axios.defaults.baseURL = 'https://example-cms-mocha.vercel.app/api'
 export default function App({ Component, pageProps }) {
   const theme = createTheme({
     breakpoints:{
